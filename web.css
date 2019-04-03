@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-    background-color: #f2f2f2;
+    background-color: #ae8f86;
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
 
-* {
-    outline: 1px solid lime;
-}
+
 
 #header{ 
-    background-color: #ac8e85;
-    height: 60px;
+    background-color: #ae8f86;
+    height: 18px;
     color: white;
-    border-bottom: solid 6px #494e62;
+    
 }
 
 .nav {
@@ -24,11 +22,10 @@ body {
 
 
 .links {
-    margin-top: 40px;
+    margin-top: 25px;
     font-size: .75rem;
+    color: white;
     text-align: right;
-    color: #494e62;
-    text-align: center;
 }
 
 .links a {
@@ -43,8 +40,8 @@ body {
 
 .banner {
     text-align: center;
-    background-color: #ac8e85;
-    border-bottom: solid 20px #ea676b;
+    background-color: #ae8f86;
+    border-bottom: solid 10px white;
 }
 
 .banner img {
