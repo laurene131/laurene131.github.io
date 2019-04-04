@@ -49,6 +49,17 @@ body {
     width: 90%;
 }
 
+.aboutme {
+    background-color: #526453;
+}
+
+.aboutme img {
+    max-width: 300px;
+    width: 70%;
+    padding: 80px 80px 80px 230px;
+}
+
+
 @media screen and (max-width: 480px) {
    
     body{
