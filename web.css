@@ -67,8 +67,8 @@ body {
 
 .p1 {
     padding-top: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 40px;
+    padding-left: 15px;
     font-size: .9rem;
     text-align: justify;
 }
@@ -86,7 +86,7 @@ body {
     max-width: 800px;
     width: 80%;
     align-items: center;
-    padding: 60px 80px 70px 100px;
+    padding: 40px 80px 80px 100px;
 }
 
 .stptext {
@@ -98,8 +98,8 @@ body {
 
 .p2 {
     padding-top: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 40px;
+    padding-left: 15px;
     font-size: .9rem;
     text-align: justify;
 }
