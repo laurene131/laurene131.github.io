@@ -51,33 +51,85 @@ body {
 
 .aboutme {
     background-color: #526453;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 500px;
+    padding: 20px;
+    border-bottom: solid 10px white;
 }
 
 .aboutme img {
     max-width: 300px;
     width: 70%;
-    padding: 80px 80px 80px 230px;
-    margin-top: 20px;
-    text-align: right;
-    grid-column: 1/3; 
+    align-items: center;
+    padding: 80px 80px 80px 200px; 
 }
 
+.amtext {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
 
+.stp {
+    background-color: #526453;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 500px;
+    padding: 20px;
+    border-bottom: solid 10px white;
+}
+
+.stp img {
+    max-width: 800px;
+    width: 75%;
+    align-items: center;
+    padding: 80px 80px 70px 100px;
+}
+
+.stptext {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.llt {
+    background-color: #526453;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 500px;
+    padding: 20px;
+    border-bottom: solid 10px white;
+}
+
+.llt img {
+    max-width: 800px;
+    width: 60%;
+    align-items: center;
+    padding: 50px 80px 80px 120px;
+}
+
+#footer { 
+    background-color: #ae8f86;
+    height: 50px;
+    color: white;
+}
+
+.contact {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
 @media screen and (max-width: 480px) {
    
     body{
-        background-color: green; 
+        background-color: #ae8f86; 
     }
     
     .links { 
         margin-top: 10px;
         text-align: center;
     }
-}
-
-#services {
-    background-color: #f2f2f2;
-    height: 497px;
-    color: #666d89;
-    border-bottom: solid 6px #ffff;
-}
