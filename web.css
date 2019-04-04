@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Aleo');
 
 body {
     background-color: #ae8f86;
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Aleo', serif;
 }
-
-
 
 #header{ 
     background-color: #ae8f86;
@@ -16,10 +14,9 @@ body {
 }
 
 .nav {
-    max-width: 950px;
+    max-width: 800px;
     margin: auto;
 }
-
 
 .links {
     margin-top: 25px;
@@ -34,10 +31,6 @@ body {
     padding: 0 10px;
 }
 
-.salmon {
-    color: #f16c65;
-}
-
 .banner {
     text-align: center;
     background-color: #ae8f86;
@@ -46,7 +39,7 @@ body {
 
 .banner img {
     max-width: 780px;
-    width: 90%;
+    width: 50%;
 }
 
 .aboutme {
@@ -60,16 +53,16 @@ body {
 
 .aboutme img {
     max-width: 300px;
-    width: 70%;
+    width: 80%;
     align-items: center;
-    padding: 80px 80px 80px 200px; 
+    padding: 100px 80px 80px 200px; 
 }
 
 .amtext {
     margin-top: 20px;
     text-align: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .stp {
@@ -83,16 +76,16 @@ body {
 
 .stp img {
     max-width: 800px;
-    width: 75%;
+    width: 80%;
     align-items: center;
-    padding: 80px 80px 70px 100px;
+    padding: 60px 80px 70px 100px;
 }
 
 .stptext {
     margin-top: 20px;
     text-align: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .llt {
@@ -106,9 +99,9 @@ body {
 
 .llt img {
     max-width: 800px;
-    width: 60%;
+    width: 56%;
     align-items: center;
-    padding: 50px 80px 80px 120px;
+    padding: 60px 80px 77px 150px;
 }
 
 #footer { 
@@ -121,7 +114,11 @@ body {
     margin-top: 30px;
     text-align: center;
     color: white;
-    font-size: 1rem;
+    font-size: 1.1rem;
+}
+
+.contact a {
+    padding: 0 10px;
 }
 @media screen and (max-width: 480px) {
    
