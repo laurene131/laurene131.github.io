@@ -46,7 +46,7 @@ body {
     background-color: #526453;
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 500px;
+    height: 470px;
     padding: 20px;
     border-bottom: solid 10px white;
 }
@@ -59,17 +59,25 @@ body {
 }
 
 .amtext {
-    margin-top: 20px;
+    margin-top: 155px;
     text-align: center;
     color: white;
     font-size: 1.1rem;
+}
+
+.p1 {
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: .9rem;
+    text-align: justify;
 }
 
 .stp {
     background-color: #526453;
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 500px;
+    height: 470px;
     padding: 20px;
     border-bottom: solid 10px white;
 }
@@ -82,17 +90,25 @@ body {
 }
 
 .stptext {
-    margin-top: 20px;
+    margin-top: 155px;
     text-align: center;
     color: white;
     font-size: 1.1rem;
+}
+
+.p2 {
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: .9rem;
+    text-align: justify;
 }
 
 .llt {
     background-color: #526453;
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 500px;
+    height: 470px;
     padding: 20px;
     border-bottom: solid 10px white;
 }
@@ -106,7 +122,7 @@ body {
 
 #footer { 
     background-color: #ae8f86;
-    height: 50px;
+    height: 40px;
     color: white;
 }
 
@@ -114,7 +130,7 @@ body {
     margin-top: 30px;
     text-align: center;
     color: white;
-    font-size: 1.1rem;
+    font-size: .9rem;
 }
 
 .contact a {
